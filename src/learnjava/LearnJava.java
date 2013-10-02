@@ -6,6 +6,8 @@
 
 package learnjava;
 
+import java.util.Arrays;
+
 /**
  *
  * @author SERGE
@@ -16,11 +18,13 @@ public class LearnJava {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        method();
+    }
+
+    private static void method() {
         // TODO code application logic here
-        //long start = System.nanoTime();
-        for(int i = 0; i < 100000; i++){
-            System.out.println(i);
-        }
+        int[] arr = {10, 20, 30};
+        System.out.println(Arrays.toString(arr));
         //long finish = System.nanoTime();
         //long res_time = finish - start;
         //System.out.println(res_time);
