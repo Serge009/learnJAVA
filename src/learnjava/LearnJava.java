@@ -18,6 +18,7 @@ public class LearnJava {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        /*
         testInvert();
         System.out.println();
         
@@ -34,6 +35,8 @@ public class LearnJava {
         System.out.println();
         
         testMul();
+        */
+        Recursion.Main();
     }
     
     private static void testMul() {
