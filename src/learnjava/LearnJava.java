@@ -36,7 +36,9 @@ public class LearnJava {
         
         testMul();
         */
-        Recursion.Main();
+        //Recursion.Run();
+        Recursion.MainClass g = new Recursion.MainClass();
+        System.out.println(g.a);
     }
     
     private static void testMul() {

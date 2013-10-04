@@ -10,13 +10,17 @@ package learnjava;
  * @author SERGE
  */
 public class Recursion {
-    public static void Main(){
-        class MainClass{
-            public int a = 10;
-            public int b = 0;
-        }
-        
+    static class MainClass{
+        public int a = 10;
+        public int b = 0;
+    }
+    public static MainClass Main(){
         MainClass g = new MainClass();
-        System.out.println(g.a);
+        return g;
+    }
+    
+    public static void Run(){
+        MainClass g = Main();
+        System.out.println(g.b);
     }
 }
